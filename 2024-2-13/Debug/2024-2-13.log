@@ -1,0 +1,6 @@
+﻿  day7.c
+G:\code\2024-2-13\day7.c(638,67): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\code\2024-2-13\day7.c(652,40): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\code\2024-2-13\day7.c(662,11): warning C4087: “getchar”: 用“void”参数列表声明
+G:\code\2024-2-13\day7.c(669,15): warning C4305: “*=”: 从“double”到“float”截断
+  2024-2-13.vcxproj -> G:\code\2024-2-13\Debug\2024-2-13.exe
