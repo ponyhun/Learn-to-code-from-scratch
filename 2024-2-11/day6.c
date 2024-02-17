@@ -1,5 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
+
 /*10号是大年初一，今天11号过年总算结束了，忙了好多事啊，现在继续来学习，第六章讲循环讲得更加细化一些，while循环我已经比较熟了
 这里有个赋值bool有点意思，直接写一遍*/
 //int main()
