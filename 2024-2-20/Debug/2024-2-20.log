@@ -1,0 +1,3 @@
+﻿  code-practice.c
+G:\c-code\2024-2-20\code-practice.c(304,7): warning C4018: “>=”: 有符号/无符号不匹配
+  2024-2-20.vcxproj -> G:\c-code\2024-2-20\Debug\2024-2-20.exe
