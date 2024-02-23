@@ -1,0 +1,8 @@
+﻿  2dimension_array function.c
+  day10.c
+  variable-length array.c
+G:\c-code\2024-2-22\variable-length array.c(5,42): error C2057: 应输入常量表达式
+G:\c-code\2024-2-22\variable-length array.c(5,42): error C2466: 不能分配常量大小为 0 的数组
+G:\c-code\2024-2-22\variable-length array.c(5,48): error C2057: 应输入常量表达式
+G:\c-code\2024-2-22\variable-length array.c(5,48): error C2466: 不能分配常量大小为 0 的数组
+G:\c-code\2024-2-22\variable-length array.c(5,48): error C2087: “ar”: 缺少下标
