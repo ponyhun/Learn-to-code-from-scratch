@@ -1,0 +1,44 @@
+# Project: 2024-2-25
+# Makefile created by Red Panda C++ 2.26.2249
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+RES      = 2024-2-25_private.res
+OBJ      = codepractice.o sort_str.o day11.o compare.o $(RES)
+LINKOBJ  = codepractice.o sort_str.o day11.o compare.o 2024-2-25_private.res
+CLEANOBJ  =  codepractice.o sort_str.o day11.o compare.o  2024-2-25_private.res 2024-2-25.exe
+LIBS     = 
+INCS     =  
+CXXINCS  =  
+BIN      = 2024-2-25.exe
+CXXFLAGS = $(CXXINCS)  -g3 -pipe -Wall -D__DEBUG__
+CFLAGS   = $(INCS)  -g3 -pipe -Wall -D__DEBUG__
+RM       = del /q /f
+WINDRESFLAGS  = 
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	-$(RM) $(CLEANOBJ) > NUL 2>&1
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+codepractice.o: codepractice.c
+	$(CC) -c codepractice.c -o codepractice.o $(CFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+sort_str.o: sort_str.c
+	$(CC) -c sort_str.c -o sort_str.o $(CFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+day11.o: day11.c
+	$(CC) -c day11.c -o day11.o $(CFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+compare.o: compare.c
+	$(CC) -c compare.c -o compare.o $(CFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+2024-2-25_private.res: 2024-2-25_private.rc 
+	$(WINDRES) -i 2024-2-25_private.rc --input-format=rc -o 2024-2-25_private.res -O coff $(WINDRESFLAGS) 
+

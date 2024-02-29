@@ -1,0 +1,40 @@
+[
+    {
+        "caretX": 19,
+        "caretY": 599,
+        "filename": "G:/c-code/2024-2-25/codepractice.c",
+        "focused": true,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 0,
+        "topLine": 603
+    },
+    {
+        "caretX": 16,
+        "caretY": 27,
+        "filename": "G:/c-code/2024-2-25/sort_str.c",
+        "focused": false,
+        "isOpen": false,
+        "leftChar": 1,
+        "topLine": 10
+    },
+    {
+        "caretX": 35,
+        "caretY": 12,
+        "filename": "G:/c-code/2024-2-25/day11.c",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 1,
+        "topLine": 1
+    },
+    {
+        "caretX": 4,
+        "caretY": 16,
+        "filename": "G:/c-code/2024-2-25/compare.c",
+        "focused": false,
+        "isOpen": false,
+        "leftChar": 1,
+        "topLine": 19
+    }
+]
